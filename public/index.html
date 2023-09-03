@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Express.js on Vercel</title>
+</head>
+
+<body>
+  <h1>Express App Responded</h1>
+  <form action="/contextualValidation" method="post" enctype="multipart/form-data">
+    <ul>
+      <li>
+        <label for="pdf">PDF:</label>
+        <input type="file" id="pdf" name="pdf" />
+      </li>
+      <li>
+        <label for="verifiedData">VerifiedData:</label>
+        <textarea id="verifiedData" name="verifiedData"></textarea>
+      </li>
+      <li class="button">
+        <button type="submit">Submit</button>
+      </li>
+    </ul>
+  </form>
+</body>
+
+</html>
