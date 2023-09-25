@@ -13,7 +13,7 @@
   "dependencies": {
     "@vercel/node": "^2.15.10",
     "body-parser": "^1.20.2",
-    "chatgpt": "^5.2.5",
+    "chatgpt": "5.2.5",
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "langchain": "^0.0.127",
